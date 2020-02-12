@@ -1,41 +1,51 @@
 import React from 'react';
 
+import Arrow from '../components/arrow';
+
 const About = () => (
-    <div className="mt-16 w-1/2 m-auto flex h-screen">
-        {/* right side */}
-        <div className="w-1/2">
-            <div>
-                <h3 className="mb-4">SKILLS</h3>
-                <ol>
-                    <li className="font-semibold">Front End Development</li>
-                    <li className="font-semibold">UI/UX Design</li>
-                    <li className="font-semibold">Wireframes</li>
-                    <li className="font-semibold">User Journey Maps</li>
-                    <li className="font-semibold">Personas</li>
-                    <li className="font-semibold">UX Research</li>
-                </ol>
+    <div className="mt-24 w-1/2 m-auto flex flex-col h-screen justify-evenly pb-32">
+        <div className="flex">
+            {/* right side */}
+            <div className="w-1/2">
+                <div>
+                    <h3 className="mb-4">SKILLS</h3>
+                    <ol className="font-semibold">
+                        <li>Front End Development</li>
+                        <li>UI/UX Design</li>
+                        <li>Wireframes</li>
+                        <li>User Journey Maps</li>
+                        <li>Personas</li>
+                        <li>UX Research</li>
+                    </ol>
+                </div>
+                <div className="mt-8">
+                    <h3 className="mb-4">PREFERRED TOOLS</h3>
+                    <ol className="font-semibold">
+                        <li>Gatsby.js</li>
+                        <li>React</li>
+                        <li>Vue.js</li>
+                        <li>Tailwind CSS</li>
+                        <li>Figma</li>
+                    </ol>
+                </div>
             </div>
-            <div className="mt-8">
-                <h3 className="mb-4">PREFERRED TOOLS</h3>
-                <ol>
-                    <li className="font-semibold">Gatsby.js</li>
-                    <li className="font-semibold">React</li>
-                    <li className="font-semibold">Vue.js</li>
-                    <li className="font-semibold">Tailwind CSS</li>
-                    <li className="font-semibold">Figma</li>
-                </ol>
+            {/* left side */}
+            <div className="w-1/2">
+                <h3 className="mb-4">ABOUT</h3>
+                <p className="font-semibold mb-4">
+                    Hello! I am a front end web developer with an affinity for meaningful user experiences. 
+                    My client history includes users in commercial and personal spaces, 
+                    however, my specialty lies in developing and designing healthcare applications.
+                    I can work individually or support an existing development/design team. 
+                    Looking forward to providing clear, concise designs and UX expertise to ambitious clients 
+                    making their ideas a reality.
+                </p>
+                <p className="font-semibold">
+                    Currently <span className="underline">available</span> for freelance work.
+                </p>
             </div>
         </div>
-        {/* left side */}
-        <div className="w-1/2">
-            <h3 className="mb-4">ABOUT</h3>
-            <p className="font-semibold">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Quisque ipsum odio, varius at efficitur non, tempor id odio. 
-                Donec bibendum est nec magna lacinia tristique. Donec rhoncus tellus 
-                elementum.
-            </p>
-        </div>
+        <Arrow />
     </div>
 );
 
