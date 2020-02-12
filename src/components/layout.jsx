@@ -23,15 +23,13 @@ const Layout = ({ children }) => {
     `);
 
     return (
-        <>
+        <div className="mx-auto w-11/12 md:w-4/5 max-w-screen-xl">
             <Header siteTitle={data.site.siteMetadata.title} />
-            <main></main>
+            <main className="">{children}</main>
             <footer>
-                © {new Date().getFullYear()}, Built with
-                {` `}
-                <a href="https://www.gatsbyjs.org">Gatsby</a>
+                © {new Date().getFullYear()}, Allen Hansrisuk 
             </footer>
-        </>
+        </div>
     );
 };
 

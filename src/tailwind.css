@@ -2,6 +2,8 @@
 
 html, body, #___gatsby {
     @apply h-full;
+    font-family: 'Gothic A1', sans-serif;
+    background-color: #F0F0F0;
 }
 
 div[role="group"][tabindex] {
@@ -10,8 +12,21 @@ div[role="group"][tabindex] {
 
 @tailwind components;
 
+.nav-link {
+    @apply text-2xl mr-8;
+}
+
+.nav-link:hover {
+    @apply underline;
+}
+
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:400,500,600,700&display=swap');
+
+.text-max {
+    font-size: 6rem;
+}
 
 
 
