@@ -12,7 +12,7 @@ const IndexPage = () => (
         <div className="h-screen pb-20 flex flex-col justify-between">
             {/* main message */}
             <h2 className="w-4/5 text-max font-medium mt-24">FRONT END DEVELOPMENT, UX DESIGN & RESEARCH</h2>
-            <Arrow />
+            <Arrow target="#about" />
         </div>
         {/* information container*/}
         <About />

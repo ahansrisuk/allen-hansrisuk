@@ -3,7 +3,7 @@ import React from 'react';
 import Arrow from '../components/arrow';
 
 const About = () => (
-    <div className="mt-24 w-1/2 m-auto flex flex-col h-screen justify-evenly pb-32">
+    <div className="mt-24 w-1/2 m-auto flex flex-col h-screen justify-evenly pb-32" id="about">
         <div className="flex">
             {/* right side */}
             <div className="w-1/2">
@@ -34,8 +34,7 @@ const About = () => (
                 <h3 className="mb-4">ABOUT</h3>
                 <p className="font-semibold mb-4">
                     Hello! I am a front end web developer with an affinity for meaningful user experiences. 
-                    My client history includes users in commercial and personal spaces, 
-                    however, my specialty lies in developing and designing healthcare applications.
+                    My client history includes users in commercial and personal spaces as well as developing and designing healthcare applications.
                     I can work individually or support an existing development/design team. 
                     Looking forward to providing clear, concise designs and UX expertise to ambitious clients 
                     making their ideas a reality.
@@ -45,7 +44,7 @@ const About = () => (
                 </p>
             </div>
         </div>
-        <Arrow />
+        <Arrow target="#selected-works"/>
     </div>
 );
 
