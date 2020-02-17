@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Arrow from '../components/arrow';
+import Arrow from '../arrow';
 
 const About = () => (
     <div className="mt-24 w-1/2 m-auto flex flex-col h-screen justify-evenly pb-32" id="about">
