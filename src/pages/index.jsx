@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import About from '../components/sections/about';
 import Arrow from '../components/arrow';
-import Image from '../components/image';
+import Projects from '../components/sections/projects';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
@@ -16,6 +16,7 @@ const IndexPage = () => (
         </div>
         {/* information container*/}
         <About />
+        <Projects />
     </Layout>
 );
 

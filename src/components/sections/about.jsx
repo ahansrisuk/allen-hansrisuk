@@ -44,7 +44,7 @@ const About = () => (
                 </p>
             </div>
         </div>
-        <Arrow target="#selected-works"/>
+        <Arrow target="#projects"/>
     </div>
 );
 
