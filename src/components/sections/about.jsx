@@ -33,11 +33,7 @@ const About = () => (
             <div className="w-1/2">
                 <h3 className="mb-4">ABOUT</h3>
                 <p className="font-semibold mb-4">
-                    Hello! I am a front end web developer with an affinity for meaningful user experiences. 
-                    My client history includes users in commercial and personal spaces as well as developing and designing healthcare applications.
-                    I can work individually or support an existing development/design team. 
-                    Looking forward to providing clear, concise designs and UX expertise to ambitious clients 
-                    making their ideas a reality.
+                    Hello! I am a front end web developer aware of the importance of creating meaningful user experiences. I have designed and developed for both individuals as well as corporate clients, with much of my work focusing on healthcare applications. I can provide clear, concise designs and UX expertise either individually or as part of an existing development/design team.
                 </p>
                 <p className="font-semibold">
                     Currently <span className="underline">available</span> for freelance work.
