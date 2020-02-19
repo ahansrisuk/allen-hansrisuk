@@ -27,7 +27,7 @@ const Layout = ({ children }) => {
         <div className="mx-auto w-11/12 md:w-4/5 max-w-screen-xl">
             <Header siteTitle={data.site.siteMetadata.title}/>
             <main className="z-0">{children}</main>
-            <footer>
+            <footer className="text-sm mt-24">
                 © {new Date().getFullYear()}, Allen Hansrisuk 
             </footer>
         </div>

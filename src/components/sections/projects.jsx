@@ -1,12 +1,12 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import Image from 'gatsby-image';
+import Project from '../project';
 
 const Projects = () => {
     const data = useStaticQuery(graphql`
         query ProjectQuery {
-            allContentfulProject {
+            allContentfulProject(sort: {fields: order, order: ASC}){
                 nodes {
                     order
                     name
@@ -27,20 +27,9 @@ const Projects = () => {
     const projects = data.allContentfulProject.nodes;
 
     return (
-        <div className="w-full h-screen pt-40" id="projects">
-            <h2 className="text-center mb-12">SELECTED WORKS</h2>
-            <div className="flex pb-6 border-black border-b-2">
-                <Image
-                    key={projects[0].image.fluid.src}
-                    alt={projects[0].image.title}
-                    fluid={projects[0].image.fluid}
-                    className="w-1/3"
-                />
-                <div className="w-2/3 ml-20 flex flex-col justify-center">
-                    <h3 className="text-2xl mb-1">{projects[0].name}</h3>
-                    <p>{projects[0].description.description}</p>
-                </div>
-            </div>
+        <div className="w-4/5 m-auto pt-40" id="projects">
+            <h2 className="text-center mb-8">SELECTED WORKS</h2>
+            {projects.map( (project) => <Project project={project} />)}
         </div>
     )
 
