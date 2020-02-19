@@ -26,17 +26,17 @@ const Projects = () => {
     const projects = data.allContentfulProject.nodes;
 
     return (
-        <div className="w-full h-screen" id="projects">
-            <h2 className="text-center">SELECTED WORKS</h2>
-            <div className="flex content-center">
+        <div className="w-full h-screen pt-40" id="projects">
+            <h2 className="text-center mb-12">SELECTED WORKS</h2>
+            <div className="flex">
                 <Image
                     key={projects[0].image.fluid.src}
                     alt={projects[0].image.title}
                     fluid={projects[0].image.fluid}
                     className="w-1/3"
                 />
-                <div className="w-2/3 ml-12">
-                    <h3 className="text-2xl">{projects[0].name}</h3>
+                <div className="w-2/3 ml-20 flex flex-col justify-center">
+                    <h3 className="text-2xl mb-1">{projects[0].name}</h3>
                     <p>{projects[0].description.description}</p>
                 </div>
             </div>
