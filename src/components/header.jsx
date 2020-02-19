@@ -11,14 +11,14 @@ const Header = ({ siteTitle }) => {
     }
     
     return (
-        <header className="flex justify-between pt-6 content-center sticky top-0">
+        <header className="flex justify-between w-full pt-6 content-center sticky top-0 z-10">
             <h1 className="text-2xl font-medium">ALLEN HANSRISUK</h1>
-            <nav className="my-auto">
-                <ol className="flex justify-between">
-                    <li className="nav-link cursor-pointer" onClick={() => handleClick('#about')}>ABOUT</li>
-                    <li className="nav-link cursor-pointer">SELECTED WORKS</li>
-                    <li className="nav-link cursor-pointer -mr-8">CONTACT</li>
-                </ol>
+            <nav>
+                <ul className="flex">
+                    <li className="text-2xl hover:underline mr-8 cursor-pointer" onClick={() => handleClick('#about')}>ABOUT</li>
+                    <li className="text-2xl hover:underline mr-8 cursor-pointer">SELECTED WORKS</li>
+                    <li className="text-2xl hover:underline cursor-pointer">CONTACT</li>
+                </ul>
             </nav>
         </header>
     )

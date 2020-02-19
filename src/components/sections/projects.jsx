@@ -13,7 +13,7 @@ const Projects = () => {
                         description
                     }
                     image {
-                        fluid(maxWidth: 600, quality: 100) {
+                        fluid(maxWidth: 800, quality: 100) {
                             ...GatsbyContentfulFluid
                         }
                         title
@@ -28,7 +28,7 @@ const Projects = () => {
     return (
         <div className="w-full h-screen" id="projects">
             <h2 className="text-center">SELECTED WORKS</h2>
-            <div className="flex">
+            <div className="flex content-center">
                 <Image
                     key={projects[0].image.fluid.src}
                     alt={projects[0].image.title}
@@ -36,10 +36,9 @@ const Projects = () => {
                     className="w-1/3"
                 />
                 <div className="w-2/3 ml-12">
-                    <h3>{projects[0].name}</h3>
+                    <h3 className="text-2xl">{projects[0].name}</h3>
                     <p>{projects[0].description.description}</p>
                 </div>
-                
             </div>
         </div>
     )
