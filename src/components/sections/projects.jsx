@@ -8,6 +8,7 @@ const Projects = () => {
         query ProjectQuery {
             allContentfulProject {
                 nodes {
+                    order
                     name
                     description {
                         description
@@ -28,7 +29,7 @@ const Projects = () => {
     return (
         <div className="w-full h-screen pt-40" id="projects">
             <h2 className="text-center mb-12">SELECTED WORKS</h2>
-            <div className="flex">
+            <div className="flex pb-6 border-black border-b-2">
                 <Image
                     key={projects[0].image.fluid.src}
                     alt={projects[0].image.title}
