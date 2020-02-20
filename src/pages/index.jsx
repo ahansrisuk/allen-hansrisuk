@@ -11,8 +11,10 @@ const IndexPage = () => (
         <SEO title="Home" />
         <div className="h-screen pb-20 flex flex-col justify-between" id="top">
             {/* main message */}
-            <h2 className="w-4/5 text-max font-medium mt-24">FRONT END DEVELOPMENT, UX DESIGN & RESEARCH</h2>
-            <Arrow target="#about" />
+            <h2 className="w-4/5 text-4xl sm:text-6xl xl:text-max font-medium mt-12">FRONT END DEVELOPMENT, UX DESIGN & RESEARCH</h2>
+            <div className="bottom-0">
+                <Arrow target="#about"/>
+            </div>
         </div>
         {/* information container*/}
         <About />
