@@ -11,8 +11,8 @@ const Header = ({ siteTitle }) => {
     }
 
     return (
-        <header className="flex justify-between w-full pt-6 content-center sticky top-0 z-10 text-xs sm:text-lg md:text-xl lg:text-2xl">
-            <h1 className="font-medium">
+        <header className="fixed top-0 right-0 left-0 sm:w-5/6 max-w-screen-xl m-auto pt-6 block sm:flex justify-between content-center z-10 text-xs sm:text-lg md:text-xl lg:text-2xl">
+            <h1 className="font-medium mb-2 sm:mb-0">
                 <a href="#top" onClick={ (event) => handleClick(event)}>ALLEN HANSRISUK</a>
             </h1>
             <nav>
