@@ -27,8 +27,8 @@ const Projects = () => {
     const projects = data.allContentfulProject.nodes;
 
     return (
-        <div className="w-4/5 m-auto pt-40" id="projects">
-            <h2 className="text-center mb-8">SELECTED WORKS</h2>
+        <div className="m-auto pt-24" id="projects">
+            <h2 className="text-center lg:mb-4 text-sm sm:text-base">SELECTED WORKS</h2>
             {projects.map( (project) => <Project project={project} />)}
         </div>
     )

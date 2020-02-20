@@ -3,7 +3,7 @@ import React from 'react';
 import Arrow from '../arrow';
 
 const About = () => (
-    <div className="pt-20 text-xs sm:text-base sm:w-1/2 m-auto flex flex-col h-screen justify-between pb-4" id="about">
+    <div className="pt-24 text-xs sm:text-base sm:w-1/2 m-auto flex flex-col h-screen justify-between pb-4" id="about">
         <div className="flex">
             {/* right side */}
             <div className="w-1/2">
