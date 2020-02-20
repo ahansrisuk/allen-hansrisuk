@@ -12,7 +12,9 @@ const Header = ({ siteTitle }) => {
 
     return (
         <header className="flex justify-between w-full pt-6 content-center sticky top-0 z-10">
-            <h1 className="text-2xl font-medium">ALLEN HANSRISUK</h1>
+            <h1 className="text-2xl font-medium">
+                <a href="#top" onClick={ (event) => handleClick(event)}>ALLEN HANSRISUK</a>
+            </h1>
             <nav>
                 <ul className="flex">
                     <li className="text-2xl hover:underline mr-8 cursor-pointer">

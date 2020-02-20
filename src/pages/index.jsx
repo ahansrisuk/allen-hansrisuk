@@ -9,7 +9,7 @@ import SEO from '../components/seo';
 const IndexPage = () => (
     <Layout>
         <SEO title="Home" />
-        <div className="h-screen pb-20 flex flex-col justify-between">
+        <div className="h-screen pb-20 flex flex-col justify-between" id="top">
             {/* main message */}
             <h2 className="w-4/5 text-max font-medium mt-24">FRONT END DEVELOPMENT, UX DESIGN & RESEARCH</h2>
             <Arrow target="#about" />
