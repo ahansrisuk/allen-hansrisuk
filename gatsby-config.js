@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Allen Hansrisuk`,
-    description: `Personal portfolio website for Allen Hansrisuk - Freelance front end dev, UX Designer`,
+    description: `Personal portfolio website for Allen Hansrisuk - Freelance Front End Dev, UX Designer`,
     author: `Allen Hansrisuk`,
   },
   plugins: [
