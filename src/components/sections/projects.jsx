@@ -25,11 +25,12 @@ const Projects = () => {
     `)
 
     const projects = data.allContentfulProject.nodes;
+    console.log(projects);
 
     return (
         <div className="m-auto pt-24" id="projects">
             <h2 className="text-center lg:mb-4 text-sm sm:text-base">SELECTED WORKS</h2>
-            {projects.map( (project) => <Project project={project} />)}
+            {projects.map( (project) => <Project key={project.image.fluid.src} project={project} />)}
         </div>
     )
 
