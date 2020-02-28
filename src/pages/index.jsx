@@ -30,14 +30,13 @@ return (
         <SEO title="Home" />
         <div className="h-screen flex flex-col justify-between pb-4 pt-40" id="top">
             {/* main message */}
-            <div className="lg:w-4/5 relative h-full">
-                <h2 className="text-4xl sm:text-6xl xl:text-max font-medium relative z-10">FRONT END DEVELOPMENT, UX DESIGN & RESEARCH</h2>
+            <div className="relative">
+                <h2 className="text-4xl sm:text-6xl xl:w-4/5 xl:text-max font-medium relative z-10">FRONT END DEVELOPMENT, UX DESIGN & RESEARCH</h2>
                 {/* headshot image*/}
-                <div className="w-3/4 absolute bottom-0 right-0 z-0 mb-64
-                    md:mb-0
-                    lg:-mr-56
-                    xl:-mr-64 xl:w-3/5
-                    xxl:w-1/2 xxl:mb-16
+                <div className="w-3/4 absolute bottom-0 right-0 -mb-48
+                    md
+                    lg:w-1/3 lg:-mb-56
+                    xl:w-1/3 xl:-mb-48
                     ">
                     <Image
                         key={data.contentfulAsset.fluid.src}
