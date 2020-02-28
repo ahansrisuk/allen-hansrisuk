@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => {
                         <a href="#projects" onClick={ (event) => handleClick(event)}>SELECTED WORKS</a>
                     </li>
                     <li className="hover:underline cursor-pointer">
-                        <a href="#contact" onClick={ (event) => handleClick(event)}>CONTACT</a>
+                        <a href="mailto:ahansrisuk@gmail.com?Subject=Hello" target="_top" title="ahansrisuk@gmail.com">CONTACT</a>
                     </li>
                 </ul>
             </nav>
