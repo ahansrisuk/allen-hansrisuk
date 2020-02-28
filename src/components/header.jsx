@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import { Link } from 'gatsby';
 
 import scrollTo from 'gatsby-plugin-smoothscroll'
 
@@ -27,7 +28,7 @@ const Header = ({ siteTitle }) => {
                         <a href="#projects" onClick={ (event) => handleClick(event)}>SELECTED WORKS</a>
                     </li>
                     <li className="hover:underline cursor-pointer">
-                        <a href="#contact" onClick={ (event) => handleClick(event)}>CONTACT</a>
+                        <Link to="/contact">CONTACT</Link>
                     </li>
                 </ul>
             </nav>
