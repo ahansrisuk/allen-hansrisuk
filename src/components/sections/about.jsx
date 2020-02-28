@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import Arrow from '../arrow';
 
@@ -36,7 +37,7 @@ const About = () => (
                     Hello! I am a front end web developer aware of the importance of creating meaningful user experiences. I have designed and developed for both individuals as well as corporate clients, with much of my work focusing on healthcare applications. I can provide clear, concise designs and UX expertise either individually or as part of an existing development/design team.
                 </p>
                 <p className="font-semibold">
-                    Currently <span className="underline">available</span> for freelance work.
+                    Currently <span className="underline"><Link to="/contact">available</Link></span> for freelance work.
                 </p>
             </div>
         </div>
