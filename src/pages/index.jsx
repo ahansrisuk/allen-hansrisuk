@@ -33,10 +33,10 @@ return (
             <div className="relative">
                 <h2 className="text-4xl sm:text-6xl xl:w-4/5 xl:text-max font-medium relative z-10">FRONT END DEVELOPMENT, UX DESIGN & RESEARCH</h2>
                 {/* headshot image*/}
-                <div className="w-3/4 absolute bottom-0 right-0 -mb-48
-                    md
-                    lg:w-1/3 lg:-mb-56
-                    xl:w-1/3 xl:-mb-48
+                <div className="w-3/4 absolute right-0 bottom-0 -mb-64
+                    md:w-1/2 md:-mb-48
+                    lg:w-1/3
+                    xl:-mb-16
                     ">
                     <Image
                         key={data.contentfulAsset.fluid.src}
