@@ -12,6 +12,8 @@ return (
         <SEO title="Contact" />
         <div className="h-screen flex flex-col justify-between pb-4 pt-40" id="top">
             <div className="m-auto mt-0 lg:w-1/2">
+                <h2 className="mb-2 text-2xl text-center">CONTACT</h2>
+                <div className="w-1/2 m-auto border-t border-black mb-4"></div>
                 <form name="contact" method="POST" data-netlify="true" className="shadow-md rounded px-8 pt-6 pb-8 mb-4">
                     <label htmlFor="name" className="block">NAME:</label>
                     <input 
