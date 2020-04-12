@@ -1,3 +1,14 @@
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@2/distr/fira_code.css);
+
 @tailwind base;
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+}
+
 @tailwind components;
+
 @tailwind utilities;
