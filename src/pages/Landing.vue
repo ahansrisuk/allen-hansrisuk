@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-48 m-auto w-full max-w-md">
+    <div class="m-auto pt-48 w-full max-w-md">
         <vue-typed-js 
             :strings="['Hello.^800 I\'m Allen.']"
             :typeSpeed="80" 
