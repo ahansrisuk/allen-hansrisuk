@@ -13,10 +13,12 @@ Vue.use(VueTypedJs);
 
 Vue.config.productionTip = false
 
-import Landing from './pages/Landing.vue'
+import Landing from './pages/Landing.vue';
+import About from './pages/About.vue';
 
 const routes = [
-    { path: '/', component: Landing }
+    { path: '/', component: Landing },
+    { path: '/about', component: About},
 ]
 
 const router = new VueRouter({

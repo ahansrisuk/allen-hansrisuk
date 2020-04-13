@@ -13,14 +13,14 @@
             <li>- Front End Developer</li>
             <li>- UX/UI Designer</li>
         </ul>
-        <button 
+        <div
             class="text-sm" 
             v-show="showContent"
             @mouseover="mouseOver"
             @mouseleave="mouseLeave"
             >
-            Let's create something together ... ->
-        </button>
+            <router-link to="/about">Let's create something together ... -></router-link>
+        </div>
     </div>
 </template>
 
@@ -46,7 +46,7 @@ export default {
                     easing: 'easeOutElastic'
                 })
                 .add ({
-                    targets: 'button',
+                    targets: 'a',
                     opacity: [0,1],
                     duration: 1000,
                     easing: 'easeInOutSine'
