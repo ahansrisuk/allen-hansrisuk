@@ -13,7 +13,12 @@
             <li>- Front End Developer</li>
             <li>- UX/UI Designer</li>
         </ul>
-        <button class="text-sm" v-show="showContent">
+        <button 
+            class="text-sm" 
+            v-show="showContent"
+            @mouseover="mouseOver"
+            @mouseleave="mouseLeave"
+            >
             Let's create something together ... ->
         </button>
     </div>
@@ -46,6 +51,18 @@ export default {
                     duration: 1000,
                     easing: 'easeInOutSine'
                 })
+        },
+        mouseOver (e) {
+            this.$anime({
+                targets: e.target,
+                scale: [1, 1.05],
+            })
+        },
+        mouseLeave (e) {
+            this.$anime({
+                targets: e.target,
+                scale: [1.05, 1],
+            })
         }
     }
 }
