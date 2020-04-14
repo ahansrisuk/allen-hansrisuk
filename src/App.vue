@@ -1,5 +1,5 @@
 <template>
-    <div id="app" class="p-4 h-screen flex-col">
+    <div id="app" class="p-4 h-screen flex-col max-w-lg m-auto">
         <div class="w-full" v-if="$route.path != '/'">
             <Header />
             <section class="flex">
