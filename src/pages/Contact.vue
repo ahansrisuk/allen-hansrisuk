@@ -6,7 +6,7 @@
             method="post"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
-            action="/#"
+            @submit.prevent="handleSubmit"
         >
             <input type="hidden" name="form-name" value="contact-form" />
 
@@ -38,10 +38,41 @@
 
 <script>
 
-
+import axios from 'axios';
 
 export default {
     name: 'Contact',
+    data: function () {
+        return {
+            form: {
+                name: '',
+                email: '',
+                message: ''
+            }
+        }
+    },
+    methods: {
+        encode (data) {
+            return Object.keys(data)
+                .map(
+                    key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+                )
+                .join("&");
+        },
+        handleSubmit () {
+            const axiosConfig = { header: { "Content-Type": "application/x-www-form-urlencoded" } };
+            axios.post(
+                "/",
+                this.encode({
+                    "form-name": "contact-form",
+                    ...this.form
+                }),
+                axiosConfig
+            ).then(() => {
+                this.$router.push('contact')
+            })
+        }
+    }
 }
 </script>
 
