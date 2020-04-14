@@ -4,12 +4,18 @@
             class="mb-4 block" 
             title="COVID-19 Tracker"
             path="/projects/covid-19-tracker"
-            description="Wireframing and prototyping for an application to be implemented at 
-            Brigham and Women's Hospital. The application will serve as a tool to track provider 
+            description="Mobile app to be implemented at Brigham and Women's Hospital to track provider 
             burnout and COVID-19 symptoms amid the outbreak."
+            label="UX/UI Design"
         />
-            
-        <router-link to="/" class="mb-4 block">Clear Cut</router-link>
+        <Project 
+            class="mb-4 block" 
+            title="Clear Cut"
+            path="/projects/clear-cut"
+            description="Web app developed for Johns Hopkins Medicine that automates routine 
+            maintenance requests in Epic EMR"
+            label="Development"
+        />
         <router-link to="/" class="mb-4 block">Heteroangiodema App</router-link>
         <router-link to="/" class="mb-4 block">Ready, Fresh, Go!</router-link>
         <router-link to="/" class="mb-4 block">Pocket Value</router-link>
