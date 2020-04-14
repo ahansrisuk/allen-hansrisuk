@@ -1,14 +1,19 @@
 <template>
-    <div id="app" class="p-4 h-screen flex-col max-w-lg m-auto">
-        <div class="w-full" v-if="onCoreRoute">
-            <Header />
-            <section class="flex">
-                <Tab title="about" />
-                <Tab title="projects" class="ml-2" />
-                <Tab title="contact" class="ml-2" />
-            </section>
+    <div id="app" 
+        class="p-4 h-screen flex-col w-full"
+        :class="globalStyles"
+        >
+        <div class="max-w-lg m-auto">
+            <div v-if="onCoreRoute">
+                <Header />
+                <section class="flex">
+                    <Tab title="about" />
+                    <Tab title="projects" class="ml-2" />
+                    <Tab title="contact" class="ml-2" />
+                </section>
+            </div>
+            <router-view></router-view>
         </div>
-        <router-view></router-view>
     </div>
 </template>
 
@@ -31,7 +36,15 @@ export default {
                 path == '/projects' ||
                 path == '/contact' 
             )
+        },
+        globalStyles () {
+            if (this.onCoreRoute || this.$route.path == '/') {
+                return 'bg-black text-white'
+            } else {
+                return 'bg-light text-black font-medium'
+            }
         }
+
     }
 }
 </script>

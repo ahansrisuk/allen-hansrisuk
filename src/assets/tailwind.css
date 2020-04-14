@@ -3,10 +3,8 @@
 @tailwind base;
 
 body {
-    background-color: black;
-    color: white;
     font-family: 'Fira Code', monospace;
-    font-weight: 400;
+   ;
 }
 
 @tailwind components;

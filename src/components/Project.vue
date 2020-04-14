@@ -1,7 +1,8 @@
 <template>
     <div>
-        <h3 class="mb-2" @click="show = !show">
-            {{ title }}
+
+        <h3 class="mb-2">
+            <button @click="show = !show">{{ title }}</button>
         </h3>
         <p v-show="show">
             {{ description }}

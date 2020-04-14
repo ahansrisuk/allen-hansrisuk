@@ -13,16 +13,18 @@ Vue.use(VueTypedJs);
 
 Vue.config.productionTip = false
 
-import Landing from './pages/Landing.vue';
-import About from './pages/About.vue';
-import Projects from './pages/Projects.vue';
-import Contact from './pages/Contact.vue';
+import Landing from './pages/Landing';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import COVID19Tracker from './pages/projects/COVID19Tracker'
 
 const routes = [
     { path: '/', component: Landing },
     { path: '/about', component: About},
     { path: '/projects', component: Projects},
     { path: '/contact', component: Contact},
+    { path: '/projects/covid-19-tracker', component: COVID19Tracker}
 ]
 
 const router = new VueRouter({
