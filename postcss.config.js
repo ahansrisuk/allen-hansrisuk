@@ -17,7 +17,7 @@ defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
 whitelistPatterns: [/-(leave|enter|appear)(|-(to|from|active))$/, /^(?!(|.*?:)cursor-move).+-move$/, /^router-link(|-exact)-active$/],
 
 // ignored Typed.js blinking cursor
-whitelist: ['typedjsBlink', 'typed-element', 'typed-element', 'typed cursor']
+whitelist: ['typedjsBlink', 'typed-element', 'typed-cursor']
 });
 
 module.exports = {
