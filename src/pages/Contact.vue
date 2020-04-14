@@ -1,7 +1,10 @@
 <template>
     <div class="tab-content">
-        <p class="mb-8">For all general inquiries, proposals, questions, etc., please use the form below.</p>
-        <form
+        <p class="mb-8">For all general inquiries, proposals, questions, etc., please send me an email at:
+            <a href="mailto:ahansrisuk@gmail.com"> <span class="underline">ahansrisuk@gmail.com</span></a>
+        </p>
+        
+        <!-- <form
             name="contact-form"
             method="post"
             data-netlify="true"
@@ -31,7 +34,8 @@
                     Submit
                 </button>
             </div>
-        </form>
+        </form> -->
+
     </div>
 </template>
 
@@ -39,21 +43,5 @@
 
 export default {
     name: 'Contact',
-    data: function () {
-        return {
-            form: {
-                name: '',
-                email: '',
-                message: ''
-            }
-        }
-    },
 }
 </script>
-
-<style>
-.tab-content {
-    border-top-left-radius: 0;
-}
-
-</style>
