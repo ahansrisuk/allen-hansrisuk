@@ -1,8 +1,7 @@
 <template>
     <div class="m-auto pt-48 w-full max-w-md">
         <vue-typed-js 
-            :strings="['Hello.^800 I\'m Allen.']"
-            :typeSpeed="80" 
+            :strings="['Hello.^600 I\'m Allen.']"
             @onComplete="enterContent"
             >
             <h1 class="text-2xl">
