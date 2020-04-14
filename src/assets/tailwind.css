@@ -10,7 +10,7 @@ body {
 @tailwind components;
 
 .tab-content {
-    @apply w-full px-4 py-8 border-white border-2 rounded-lg text-xs;
+    @apply w-full px-4 py-8 border-white border-2 rounded-lg text-sm;
 }
 
 @tailwind utilities;
