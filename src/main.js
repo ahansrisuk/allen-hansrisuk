@@ -15,10 +15,14 @@ Vue.config.productionTip = false
 
 import Landing from './pages/Landing.vue';
 import About from './pages/About.vue';
+import Works from './pages/Works.vue';
+import Contact from './pages/Contact.vue';
 
 const routes = [
     { path: '/', component: Landing },
     { path: '/about', component: About},
+    { path: '/works', component: Works},
+    { path: '/contact', component: Contact},
 ]
 
 const router = new VueRouter({
