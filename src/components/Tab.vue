@@ -1,7 +1,7 @@
 <template>
     <router-link :to="path">
-        <div class="top-border-radius py-1 px-4 border-2 border-b-0 text-sm w-24">
-            {{ title }}
+        <div class="top-border-radius py-1 px-4 border-2 border-b-0 text-sm">
+            <h2>{{ title }}</h2>
             <div v-if="active" class="overlay h-1"></div>
         </div>
     </router-link>
