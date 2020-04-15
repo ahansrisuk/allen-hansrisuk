@@ -46,7 +46,6 @@
             and frequently used bookmarks"
             label="UX/UI Design"
         />
-        <router-link to="/" class="block">Kimberly Kemler</router-link>
     </div>
 </template>
 

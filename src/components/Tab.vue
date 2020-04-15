@@ -2,12 +2,16 @@
     <router-link :to="path">
         <div class="top-border-radius py-1 px-4 border-2 border-b-0 text-sm">
             <h2>{{ title }}</h2>
-            <div v-if="active" class="overlay h-1"></div>
+            <transition @enter="tabEnter" @leave="tabLeave" :css="false">
+                <div v-if="active" class="overlay h-1"></div>
+            </transition>
         </div>
     </router-link>
 </template>
 
 <script>
+
+import anime from 'animejs';
 
 export default {
     name: 'Tab',
@@ -20,7 +24,25 @@ export default {
             return this.$route.path === this.path;
         },
     },
-    components: {
+    methods: {
+        tabEnter (el, done) {
+            anime({
+                targets: el,
+                scaleX: [0, 1],
+                easing: 'easeInSine',
+                duration: 300,
+                completed: done,
+            })
+        },
+        tabLeave (el, done) {
+            anime({
+                targets: el,
+                scaleX: [1, 0],
+                easing: 'easeInSine',
+                duration: 300,
+                completed: done,
+            })
+        }
     }
 }
 </script>
