@@ -2,11 +2,14 @@
     <div class="bwh-font bg-light font-bold w-full absolute left-0 top-0 p-4 ">
         <div class="max-w-screen-lg m-auto overflow-auto">
             <router-link to="/projects" class="text-black font-bold code">&lt;- Back</router-link>
-            <section class="rounded blue p-2 mt-8 text-white">
+            <div class="flex justify-end">
+                <img src="../../assets/covid-19-tracker/bwh-logo.png" width="200px"/>
+            </div>
+            <section class="rounded blue p-2 mt-4 text-white">
                 <h1 class="text-xl font-bold">COVID-19 Tracker</h1>
                 <span class="text-sm">UX/UI Design - Wireframing & Prototypes</span>
             </section>
-            <section class="mt-4 pb-4 shadow-lg bg-gray-100 rounded">
+            <section class="mt-8 pb-4 shadow-lg bg-gray-100 rounded">
                 <h2 class="underline blue text-white rounded p-1 pl-2">Background</h2>
                 <p class="p-2">
                     In the midst of the COVID-19 outbreak, Brigham and Women's Hospital in Boston, MA wanted to 
@@ -14,7 +17,7 @@
                     workers on the frontlines. 
                 </p>
             </section>
-            <section class="mt-4 pb-4 shadow-lg bg-gray-100 rounded">
+            <section class="mt-8 pb-4 shadow-lg bg-gray-100 rounded">
                 <h2 class="underline blue text-white rounded p-1 pl-2">Requirements</h2>
                 <ul class="p-2">
                     <li>- Mobile app solution</li>
@@ -24,7 +27,7 @@
                     <li>- Build awareness and share helpful resources.</li>
                 </ul>
             </section>
-            <section class="mt-4 pb-4 shadow-lg bg-gray-100 rounded">
+            <section class="mt-8 pb-4 shadow-lg bg-gray-100 rounded">
                 <h2 class="underline blue text-white rounded p-1 pl-2">Ideation</h2>
                 <img src="../../assets/covid-19-tracker/sketches.png" alt="COVID-19 Tracker Sketches" />
                 <p class="p-2">

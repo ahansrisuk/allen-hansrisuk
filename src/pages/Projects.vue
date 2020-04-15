@@ -25,7 +25,7 @@
         />
         <Project 
             class="mb-4 block" 
-            title="Ready, Fresh Go!"
+            title="Ready, Fresh, Go!"
             path="/projects/ready-fresh-go"
             description="Case study and value proposition for a food truck related business and app intended
             to address food deserts in local communities."
