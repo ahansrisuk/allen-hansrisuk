@@ -32,8 +32,8 @@ export default {
         labelEnter(el, done) {
             anime({
                 targets: el,
-                opacity: 1,
-                translateX: [-100, 0],
+                opacity: [0, 1],
+                translateX: [-200, 0],
                 easing: 'easeInOutSine',
                 duration: 300,
                 complete: done
@@ -42,10 +42,10 @@ export default {
         labelLeave(el, done) {
             anime({
                 targets: el,
-                opacity: 0,
-                translateX: -100,
+                opacity: [1, 0],
+                translateX: -200,
                 easing: 'easeInOutSine',
-                duration: 200,
+                duration: 300,
                 complete: done
             });
         },
