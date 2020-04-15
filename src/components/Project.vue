@@ -1,13 +1,13 @@
 <template>
     <div>
-        <h3 class="mb-2 flex justify-between text-center">
+        <h3 class="mb-2 flex justify-between items-center">
             <button class="focus:outline-none" @click="show = !show">{{ title }}</button>
             <transition @enter="labelEnter" @leave="labelLeave" :css="false">
-                <span v-show="show">({{ label }})</span>
+                <span v-show="show" class="text-xs">({{ label }})</span>
             </transition>
         </h3>
         <transition @enter="descriptionEnter" @leave="descriptionLeave" :css="false">
-            <p v-show="show">
+            <p v-show="show" style="height: 200px">
                 <router-link :to="path">
                     {{ description }} ->
                 </router-link>
@@ -17,6 +17,9 @@
 </template>
 
 <script>
+
+import anime from 'animejs/lib/anime.es.js';
+
 export default {
     name: 'Project',
     props: ['title', 'path', 'description', 'label'],
@@ -27,7 +30,7 @@ export default {
     },
     methods: {
         labelEnter(el, done) {
-            this.$anime({
+            anime({
                 targets: el,
                 opacity: 1,
                 translateX: [-100, 0],
@@ -37,7 +40,7 @@ export default {
             });
         },
         labelLeave(el, done) {
-            this.$anime({
+            anime({
                 targets: el,
                 opacity: 0,
                 translateX: -100,
@@ -47,19 +50,21 @@ export default {
             });
         },
         descriptionEnter(el, done) {
-            this.$anime({
+            anime({
                 targets: el,
-                'max-height': ['0px', '800px'],
+                'max-height': ['0px', '1000px'],
                 easing: 'easeInOutSine',
-                duration: 500,
+                opacity: [0, 1],
+                duration: 800,
                 complete: done
             });
         },
         descriptionLeave(el, done) {
-            this.$anime({
+            anime({
                 targets: el,
                 'max-height': 0,
                 easing: 'easeInOutSine',
+                opacity: [1, 0],
                 duration: 300,
                 complete: done
             });

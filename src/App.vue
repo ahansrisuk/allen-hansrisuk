@@ -1,6 +1,6 @@
 <template>
     <div id="app" 
-        class="p-4 h-screen flex-col w-full"
+        class="p-4 h-screen flex-col w-full overflow-auto"
         :class="globalStyles"
         >
         <div class="max-w-lg m-auto">

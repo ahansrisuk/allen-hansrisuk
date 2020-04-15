@@ -24,6 +24,9 @@
 </template>
 
 <script>
+
+import anime from 'animejs';
+
 export default {
     name: 'Landing',
     data: function () {
@@ -35,7 +38,7 @@ export default {
         enterContent () {
             this.showContent = true;
             let targets = document.querySelectorAll('li');
-            this.$anime
+            anime
                 .timeline()
                 .add ({
                     targets: targets,
@@ -52,13 +55,13 @@ export default {
                 })
         },
         mouseOver (e) {
-            this.$anime({
+            anime({
                 targets: e.target,
                 scale: [1, 1.05],
             })
         },
         mouseLeave (e) {
-            this.$anime({
+            anime({
                 targets: e.target,
                 scale: [1.05, 1],
             })
