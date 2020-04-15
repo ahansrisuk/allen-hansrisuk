@@ -34,14 +34,14 @@
         <Project 
             class="mb-4 block" 
             title="Pocket Value"
-            path="/projects/ready-fresh-go"
+            path="/projects/pocket-value"
             description="Lightweight, item value reference guide for Animal Crossing: New Horizons."
             label="Development"
         />
         <Project 
             class="mb-4 block" 
             title="startpage"
-            path="/projects/ready-fresh-go"
+            path="/projects/startpage"
             description="Minimalist, custom start page for personal use. Displays time/date, weather,
             and frequently used bookmarks"
             label="UX/UI Design"

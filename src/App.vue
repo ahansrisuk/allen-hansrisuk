@@ -12,13 +12,14 @@
                     <Tab title="contact" class="ml-2" />
                 </section>
             </div>
+            
             <router-view></router-view>
+        
         </div>
     </div>
 </template>
 
 <script>
-
 import Header from './components/Header';
 import Tab from './components/Tab';
 
@@ -43,9 +44,8 @@ export default {
             } else {
                 return 'bg-light text-black font-medium'
             }
-        }
-
-    }
+        },
+    },
 }
 </script>
 

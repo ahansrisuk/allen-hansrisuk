@@ -19,3 +19,7 @@ body {
 .project-font {
     font-family: 'Roboto', sans-serif;
 }
+
+.code {
+    font-family: 'Fira Code', monospace;
+}

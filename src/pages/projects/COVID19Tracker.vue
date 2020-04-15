@@ -1,7 +1,7 @@
 <template>
     <div class="bwh-font bg-light font-bold w-full absolute left-0 top-0 p-4 ">
         <div class="max-w-2xl m-auto overflow-auto">
-            <router-link to="/projects" class="text-black font-bold">&lt;- Back</router-link>
+            <router-link to="/projects" class="text-black font-bold code">&lt;- Back</router-link>
             <section class="rounded blue p-2 mt-8 text-white">
                 <h1 class="text-xl font-bold">COVID-19 Tracker</h1>
                 <span class="text-sm">UX/UI Design - Wireframing & Prototypes</span>
@@ -61,7 +61,7 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
 .bwh-font {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .blue {
