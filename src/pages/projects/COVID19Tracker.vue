@@ -1,7 +1,12 @@
 <template>
     <div class="bwh-font bg-light font-bold w-full absolute left-0 top-0 p-4 ">
         <div class="max-w-screen-lg m-auto overflow-auto">
-            <router-link to="/projects" class="text-black font-bold code">&lt;- Back</router-link>
+            <div class="inline-block" @mouseover="mouseOver" @mouseleave="mouseLeave">
+                <router-link to="/projects" class="text-black font-bold code">
+                    &lt;- Back
+                </router-link>
+            </div>
+            
             <div class="flex justify-end">
                 <img src="../../assets/covid-19-tracker/bwh-logo.png" width="200px"/>
             </div>
@@ -56,8 +61,12 @@
 </template>
 
 <script>
+
+import Utility from '../../components/Utility.js'
+
 export default {
-    name: 'COVID19Tracker'
+    name: 'COVID19Tracker',
+    mixins: [Utility]
 }
 </script>
 

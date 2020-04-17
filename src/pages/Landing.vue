@@ -26,9 +26,11 @@
 <script>
 
 import anime from 'animejs';
+import Utility from '../components/Utility.js'
 
 export default {
     name: 'Landing',
+    mixins: [Utility],
     data: function () {
         return {
             showContent: false,
@@ -54,18 +56,6 @@ export default {
                     easing: 'easeInOutSine'
                 })
         },
-        mouseOver (e) {
-            anime({
-                targets: e.target,
-                scale: [1, 1.05],
-            })
-        },
-        mouseLeave (e) {
-            anime({
-                targets: e.target,
-                scale: [1.05, 1],
-            })
-        }
     }
 }
 </script>
