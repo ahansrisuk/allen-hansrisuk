@@ -12,8 +12,9 @@
                     <Tab title="contact" class="ml-2" />
                 </section>
             </div>
-            
-            <router-view></router-view>
+            <section :class="tabContent">
+                <router-view></router-view>
+            </section>
         
         </div>
     </div>
@@ -45,6 +46,9 @@ export default {
                 return 'bg-light text-black font-medium'
             }
         },
+        tabContent () {
+            return (this.onCoreRoute ? 'tab-content' : ''); 
+        }
     },
 }
 </script>

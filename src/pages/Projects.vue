@@ -1,5 +1,5 @@
 <template>
-    <div class="tab-content">
+    <div>
         <Project 
             class="mb-4 block" 
             title="COVID-19 Tracker"

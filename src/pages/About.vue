@@ -1,5 +1,5 @@
 <template>
-    <div class="tab-content">
+    <div>
         <p>
             Hello! I am a  Baltimore-based front end web developer and UX/UI designer with a 
             knack for creating engaging, thoughtful user experiences. 

@@ -1,5 +1,5 @@
 <template>
-    <div class="tab-content">
+    <div>
         <p class="mb-8">For all general inquiries, proposals, questions, etc., please send me an email at:
             <a href="mailto:ahansrisuk@gmail.com"> <span class="underline">ahansrisuk@gmail.com</span></a>
         </p>
