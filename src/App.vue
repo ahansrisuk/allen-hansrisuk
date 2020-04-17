@@ -13,7 +13,9 @@
                 </section>
             </div>
             <section :class="tabContent">
-                <router-view></router-view>
+                <transition @enter="enter" :css="false" mode="out-in">
+                    <router-view></router-view>
+                </transition>
             </section>
         
         </div>
@@ -23,6 +25,7 @@
 <script>
 import Header from './components/Header';
 import Tab from './components/Tab';
+import anime from 'animejs';
 
 export default {
     name: 'App',
@@ -50,6 +53,20 @@ export default {
             return (this.onCoreRoute ? 'tab-content' : ''); 
         }
     },
+    methods: {
+        enter (el, done) {
+            if (this.onCoreRoute) {
+                anime({
+                    targets: el,
+                    opacity: [0, 1],
+                    easing: 'easeInOutSine',
+                    duration: 400,
+                    complete: done,
+                })
+            }
+        },
+    }
+
 }
 </script>
 

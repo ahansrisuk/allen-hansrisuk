@@ -1,19 +1,21 @@
 <template>
-    <div>
-        <h3 class="mb-2 flex justify-between items-center">
-            <button class="focus:outline-none" @click="show = !show">{{ title }}</button>
-            <transition @enter="labelEnter" @leave="labelLeave" :css="false">
-                <span v-show="show" class="text-xs">({{ label }})</span>
+    <transition mode="out-in" :css="false">
+        <div>
+            <h3 class="mb-2 flex justify-between items-center">
+                <button class="focus:outline-none" @click="show = !show">{{ title }}</button>
+                <transition @enter="labelEnter" @leave="labelLeave" :css="false">
+                    <span v-show="show" class="text-xs">({{ label }})</span>
+                </transition>
+            </h3>
+            <transition @enter="descriptionEnter" @leave="descriptionLeave" :css="false">
+                <p v-show="show" style="height: 200px">
+                    <router-link :to="path">
+                        {{ description }} ->
+                    </router-link>
+                </p>
             </transition>
-        </h3>
-        <transition @enter="descriptionEnter" @leave="descriptionLeave" :css="false">
-            <p v-show="show" style="height: 200px">
-                <router-link :to="path">
-                    {{ description }} ->
-                </router-link>
-            </p>
-        </transition>
-    </div>
+        </div>
+    </transition>
 </template>
 
 <script>

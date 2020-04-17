@@ -8,6 +8,10 @@ body {
    ;
 }
 
+[v-cloak] {
+    display: none;
+}
+
 @tailwind components;
 
 .tab-content {

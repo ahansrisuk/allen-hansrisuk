@@ -31,7 +31,7 @@ export default {
                 scaleX: [0, 1],
                 easing: 'easeInSine',
                 duration: 300,
-                completed: done,
+                complete: done,
             })
         },
         tabLeave (el, done) {
@@ -40,7 +40,7 @@ export default {
                 scaleX: [1, 0],
                 easing: 'easeInSine',
                 duration: 300,
-                completed: done,
+                complete: done,
             })
         }
     }
