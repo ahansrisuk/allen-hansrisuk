@@ -4,7 +4,7 @@
             Hello! I am a  Baltimore-based front end web developer and UX/UI designer with a 
             knack for creating engaging, thoughtful user experiences. 
         </p>
-        <p class="mt-4 mb-8">Current <span class="underline">available</span> for freelance work.</p>
+        <p class="mt-4 mb-8">Currently <span class="underline">available</span> for freelance work.</p>
         <section class="flex justify-between mt-4">
             <div>
                 <h2 class="mb-4">PREFERRED TOOLS</h2>
