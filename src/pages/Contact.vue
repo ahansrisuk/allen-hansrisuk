@@ -1,10 +1,14 @@
 <template>
-    <div>
-        <p class="mb-8">For all general inquiries, proposals, questions, etc., please send me an email at:
-            <a href="mailto:ahansrisuk@gmail.com"> <span class="underline">ahansrisuk@gmail.com</span></a>
-        </p>
-        
-        <!-- <form
+  <div>
+    <p class="mb-8">
+      For all general inquiries, proposals, questions, etc., please send me an
+      email at:
+      <a href="mailto:ahansrisuk@gmail.com">
+        <span class="underline">ahansrisuk@gmail.com</span></a
+      >
+    </p>
+
+    <!-- <form
             name="contact-form"
             method="post"
             data-netlify="true"
@@ -35,12 +39,11 @@
                 </button>
             </div>
         </form> -->
-    </div>
+  </div>
 </template>
 
 <script>
-
 export default {
-    name: 'Contact',
-}
+  name: 'Contact',
+};
 </script>
