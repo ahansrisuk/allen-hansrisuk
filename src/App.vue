@@ -35,7 +35,15 @@ export default {
   computed: {
     onCoreRoute() {
       let path = this.$route.path;
-      return path == '/about' || path == '/projects' || path == '/contact';
+      const coreRoutes = [
+        '/about',
+        '/about/',
+        '/projects',
+        '/projects/',
+        '/contact',
+        '/contact/',
+      ]
+      return coreRoutes.includes(path);
     },
     tabContent() {
       return this.onCoreRoute ? 'tab-content' : '';
