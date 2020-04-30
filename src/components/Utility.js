@@ -4,15 +4,17 @@ export default {
   name: 'Utility',
   methods: {
     mouseOver(e) {
+      anime.remove(e.target)
       anime({
         targets: e.target,
-        scale: [1, 1.05],
+        scale: 1.05,
       });
     },
     mouseLeave(e) {
+      anime.remove(e.target)
       anime({
         targets: e.target,
-        scale: [1.05, 1],
+        scale: 1,
       });
     },
   },

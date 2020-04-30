@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bwh-font bg-light w-full absolute left-0 top-0 py-4 text-sm sm:text-base"
+    class="bwh-font bg-light text-black w-full absolute left-0 top-0 py-4 text-sm sm:text-base"
   >
     <div class="max-w-screen-lg m-auto overflow-auto">
       <div

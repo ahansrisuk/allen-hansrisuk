@@ -1,8 +1,7 @@
 <template>
   <div
     id="app"
-    class="p-4 h-screen flex-col w-full overflow-auto"
-    :class="globalStyles"
+    class="p-4 h-screen flex-col w-full overflow-auto bg-black text-white"
   >
     <div class="max-w-lg m-auto">
       <div v-if="onCoreRoute">
@@ -37,13 +36,6 @@ export default {
     onCoreRoute() {
       let path = this.$route.path;
       return path == '/about' || path == '/projects' || path == '/contact';
-    },
-    globalStyles() {
-      if (this.onCoreRoute || this.$route.path == '/') {
-        return 'bg-black text-white';
-      } else {
-        return 'bg-light text-black font-medium';
-      }
     },
     tabContent() {
       return this.onCoreRoute ? 'tab-content' : '';
