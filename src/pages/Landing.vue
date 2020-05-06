@@ -55,8 +55,15 @@ export default {
           opacity: [0, 1],
           duration: 1000,
           easing: 'easeInOutSine',
+          begin: () => (document.querySelector('a').style.display = 'inline'),
         });
     },
   },
 };
 </script>
+
+<style scoped>
+a {
+  display: none;
+}
+</style>
