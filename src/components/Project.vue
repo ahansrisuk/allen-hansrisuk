@@ -15,7 +15,7 @@
         :css="false"
       >
         <p v-show="show" style="height: 200px;">
-          <router-link :to="path"> {{ description }} -> </router-link>
+          <slot></slot>
         </p>
       </transition>
     </div>
@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import anime from 'animejs/lib/anime.es.js';
+import anime from 'animejs';
 
 export default {
   name: 'Project',

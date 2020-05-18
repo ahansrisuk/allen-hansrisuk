@@ -2,10 +2,12 @@
   <div>
     <p>
       Hello! I am a Baltimore-based front end web developer and UX/UI designer
-      with a knack for creating engaging, thoughtful user experiences.
+      creating engaging, thoughtful user experiences.
     </p>
     <p class="mt-4 mb-8">
-      Currently <span class="underline">available</span> for freelance work.
+      Currently
+      <router-link to="/contact" class="underline">available</router-link> for
+      freelance work.
     </p>
     <section class="flex justify-between mt-4">
       <div>
