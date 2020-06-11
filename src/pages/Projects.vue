@@ -17,10 +17,10 @@
       maintenance requests in Epic EMR. Please contact me for additional
       information regarding this project.
     </Project>
-    <Project class="mb-4 block" title="HAE Meds Workflow" label="UX/UI Design">
+    <!-- <Project class="mb-4 block" title="HAE Meds Workflow" label="UX/UI Design">
       Expedite prescribing medication for hereditary angiodema patients. Please
       contact me for additional information regarding this project.
-    </Project>
+    </Project> -->
     <Project class="mb-4 block" title="Ready, Fresh, Go!" label="UX/UI Design">
       Case study and value proposition for a food truck related business and app
       intended to address food deserts in local communities.
