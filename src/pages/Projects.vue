@@ -16,6 +16,12 @@
       Web app developed for Johns Hopkins Medicine that automates routine
       maintenance requests in Epic EMR. Please contact me for additional
       information regarding this project.
+      <a
+        href="https://www.dropbox.com/s/5ba5hnyi1mv93zc/Clear%20Cut%20Maintenance%20Request%20System%20for%20Johns%20Hopkins%20Medicine.docx?dl=0"
+        class="underline"
+        >Link to Case Study</a
+      >
+      ->
     </Project>
     <!-- <Project class="mb-4 block" title="HAE Meds Workflow" label="UX/UI Design">
       Expedite prescribing medication for hereditary angiodema patients. Please
