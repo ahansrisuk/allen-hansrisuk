@@ -39,6 +39,14 @@
     </Project>
     <Project class="mb-4 block" title="Pocket Value" label="Development">
       Lightweight, item value reference guide for Animal Crossing: New Horizons.
+      Featured as a
+      <a
+        href="https://www.reddit.com/r/webdev/comments/gbhsgg/for_those_bitten_by_the_animal_crossing_bug_i/"
+        target="_blank"
+        class="underline"
+        >top post</a
+      >
+      on Reddit's /r/webdev community.
       <a href="https://pocket-value.com" target="_blank" class="underline"
         >Link to app</a
       >
