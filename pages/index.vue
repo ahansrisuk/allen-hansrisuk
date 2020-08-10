@@ -1,70 +1,56 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        allen-hansrisuk
+  <div class="pt-48 px-20">
+    <vue-typed-js
+      :strings="['Hello.^600 I\'m Allen.']"
+      @onComplete="enterContent"
+    >
+      <h1 class="text-3xl">
+        <span class="typing"></span>
       </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+    </vue-typed-js>
+    <ul v-show="showContent" class="mt-6 mb-12 text-lg">
+      <li>- Front End Developer</li>
+      <li>- UX/UI Designer</li>
+    </ul>
+    <div class="transform duration-500 hover:scale-105 origin-left">
+      <nuxt-link v-show="showContent" to="/about"
+        >Let's create something together... -></nuxt-link
+      >
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+import anime from 'animejs';
+
+export default {
+  name: 'Index',
+  data() {
+    return {
+      showContent: false,
+    };
+  },
+  methods: {
+    enterContent() {
+      this.showContent = true;
+      const targets = document.querySelectorAll('li');
+      anime
+        .timeline()
+        .add({
+          targets: targets,
+          delay: (el, i) => 800 + i * 800,
+          opacity: [0, 1],
+          translateY: [50, 0],
+          easing: 'easeOutElastic',
+        })
+        .add({
+          targets: 'a',
+          opacity: [0, 1],
+          duration: 1000,
+          easing: 'easeInOutSine',
+          begin: () => (document.querySelector('a').style.display = 'inline'),
+        });
+    },
+  },
+};
 </script>
-
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
