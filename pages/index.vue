@@ -25,6 +25,7 @@ import anime from 'animejs';
 
 export default {
   name: 'Index',
+  layout: 'landing',
   data() {
     return {
       showContent: false,
