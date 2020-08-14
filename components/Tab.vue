@@ -1,8 +1,6 @@
 <template>
   <router-link :to="path">
-    <div
-      class="top-border-radius py-1 px-4 border-2 border-b-0 text-sm sm:text-base"
-    >
+    <div class="top-border-radius py-1 px-4 border-2 border-b-0">
       <h2>{{ title }}</h2>
       <transition :css="false" @enter="tabEnter" @leave="tabLeave">
         <div v-if="active" class="overlay h-1"></div>

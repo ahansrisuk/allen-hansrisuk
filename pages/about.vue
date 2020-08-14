@@ -23,7 +23,7 @@
         </p>
       </div>
     </section>
-    TODO: adjust spacing
+    <!-- TODO: adjust spacing -->
     <section class="m-auto flex justify-between mt-4">
       <div>
         <h2 class="mb-4">TECH</h2>
