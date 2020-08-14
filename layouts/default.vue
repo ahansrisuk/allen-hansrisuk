@@ -30,8 +30,9 @@ export default {
 
 html {
   font-family: 'Fira Code', monospace;
-  background-color: black;
-  color: white;
+  background-color: #f2f2f2;
+  font-weight: 500;
+  color: black;
 }
 
 .tab-content {

@@ -6,9 +6,13 @@
     </p>
     <p class="mt-4 mb-8">
       Currently
-      <router-link to="/contact" class="underline">available</router-link> for
-      freelance work.
+      <router-link to="/contact" class="underline font-bold"
+        >available</router-link
+      >
+      for freelance work.
     </p>
+
+    <img src="~/assets/self.png" alt="profile picture" width="125px" />
     <section class="flex justify-between mt-4">
       <div>
         <h2 class="mb-4">PREFERRED TOOLS</h2>
@@ -37,5 +41,10 @@
 <script>
 export default {
   name: 'About',
+  head() {
+    return {
+      title: 'About | Allen Hansrisuk',
+    };
+  },
 };
 </script>

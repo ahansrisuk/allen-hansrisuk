@@ -56,13 +56,13 @@ export default {
   border-top-left-radius: 0.5rem;
   text-align: center;
   position: relative;
-  border-color: white;
+  border-color: black;
 }
 .overlay {
   top: 100%;
   position: absolute;
   left: 0;
   right: 0;
-  background-color: black;
+  background-color: #f2f2f2;
 }
 </style>
