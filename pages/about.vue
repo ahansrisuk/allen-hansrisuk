@@ -1,21 +1,32 @@
 <template>
   <div>
-    <p>
-      Hello! I am a Baltimore-based front end web developer and UX/UI designer
-      creating engaging, thoughtful user experiences.
-    </p>
-    <p class="mt-4 mb-8">
-      Currently
-      <router-link to="/contact" class="underline font-bold"
-        >available</router-link
-      >
-      for freelance work.
-    </p>
-
-    <img src="~/assets/self.png" alt="profile picture" width="125px" />
-    <section class="flex justify-between mt-4">
+    <section class="sm:flex sm:flex-reverse justify-between">
+      <div class="w-1/2 sm:w-1/3 m-auto">
+        <img
+          src="~/assets/self.png"
+          alt="profile picture"
+          class="-mt-4 m-auto"
+        />
+      </div>
+      <div class="sm:w-2/3">
+        <p class="mb-4 text-2xl">Hello!</p>
+        <p>
+          I am a Baltimore-based front end web developer and UX/UI designer
+          creating engaging, thoughtful user experiences. TODO: Add more copy
+        </p>
+        <p class="mt-4">
+          Currently
+          <router-link to="/contact" class="underline font-bold"
+            >available</router-link
+          >
+          for freelance work.
+        </p>
+      </div>
+    </section>
+    TODO: adjust spacing
+    <section class="m-auto flex justify-between mt-4">
       <div>
-        <h2 class="mb-4">PREFERRED TOOLS</h2>
+        <h2 class="mb-4">TECH</h2>
         <ul>
           <li>Vue.js</li>
           <li>Nuxt.js</li>
