@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <nuxt-link :to="link" class="hover:font-bold">
     <div class="flex justify-between items-baseline">
       <h3 class="text-xl">{{ title }}</h3>
       <h3>({{ category }})</h3>
@@ -8,7 +8,7 @@
       <slot />
     </div>
     <hr class="border-black rounded-lg my-8" />
-  </div>
+  </nuxt-link>
 </template>
 
 <script>
@@ -20,6 +20,10 @@ export default {
       default: '',
     },
     category: {
+      type: String,
+      default: '',
+    },
+    link: {
       type: String,
       default: '',
     },

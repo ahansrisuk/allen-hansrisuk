@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="sm:flex sm:flex-reverse justify-between">
-      <div class="w-2/3 m-auto sm:m-0 sm:w-1/3 sm:flex sm:items-start">
+      <div class="w-2/3 m-auto sm:m-0 sm:-ml-4 sm:w-1/3 sm:flex sm:items-start">
         <img src="~/assets/self.png" alt="profile picture" class="-mt-4" />
       </div>
       <div class="sm:w-2/3">
