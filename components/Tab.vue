@@ -1,12 +1,12 @@
 <template>
-  <router-link :to="path">
+  <nuxt-link :to="path">
     <div class="top-border-radius py-1 px-4 border-2 border-b-0">
       <h2>{{ title }}</h2>
       <transition :css="false" @enter="tabEnter" @leave="tabLeave">
         <div v-if="active" class="overlay h-1"></div>
       </transition>
     </div>
-  </router-link>
+  </nuxt-link>
 </template>
 
 <script>

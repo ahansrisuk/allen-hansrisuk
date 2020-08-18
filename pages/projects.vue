@@ -14,8 +14,8 @@
       contact me for additional information regarding this project.
     </Project>
     <Project title="Ready, Fresh, Go!" category="UX/UI Design">
-      Case study and value proposition for a food truck related business and app
-      intended to address food deserts in local communities.
+      Case study and value proposition for a food truck business and app
+      intended to address food deserts and build community.
     </Project>
     <Project title="Pocket Value" category="Development">
       Lightweight, item value reference guide for Animal Crossing: New Horizons.
