@@ -1,10 +1,10 @@
 <template>
   <nuxt-link :to="link" class="hover:font-bold">
     <div class="flex justify-between items-baseline">
-      <h3 class="text-xl">{{ title }}</h3>
-      <h3>({{ category }})</h3>
+      <h3 class="text-lg md:text-xl">{{ title }}</h3>
+      <h3 class="text-xs md:text-base">({{ category }})</h3>
     </div>
-    <div class="text-base my-5">
+    <div class="text xs md:text-base my-5">
       <slot />
     </div>
     <hr class="border-black rounded-lg my-8" />
