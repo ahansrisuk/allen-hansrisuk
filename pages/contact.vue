@@ -42,10 +42,7 @@
       </div>
 
       <div class="flex justify-end">
-        <button
-          type="submit"
-          class="float-right rounded-lg p-2 bg-white text-black font-bold"
-        >
+        <button type="submit" class="rounded-lg p-2 border-2 font-bold">
           Submit
         </button>
       </div>

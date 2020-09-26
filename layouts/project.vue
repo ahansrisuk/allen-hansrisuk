@@ -1,7 +1,7 @@
 <template>
   <div class="w-full pt-8 px-4">
     <div class="max-w-3xl m-auto">
-      <Header />
+      <Header back-button="true" />
       <section class="w-full py-8">
         <Nuxt />
       </section>
