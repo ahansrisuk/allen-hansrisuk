@@ -8,7 +8,7 @@
         <Tab title="contact" class="ml-2" />
       </section>
       <section
-        class="w-full px-4 py-8 border-white border-2 rounded-lg tab-content text-sm sm:text-base"
+        class="w-full px-4 py-8 border-white border-2 rounded-lg tab-content"
       >
         <Nuxt />
       </section>

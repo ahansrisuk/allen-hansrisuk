@@ -6,22 +6,22 @@
       Mobile app to be implemented at Brigham and Women's Hospital to track
       provider burnout and COVID-19 symptoms amid the outbreak.
     </p>
-    <div class="flex w-full justify-between mb-8">
-      <div class="w-24">
+    <div class="flex w-full justify-between mb-12">
+      <div class="w-24 sm:w-48 md:w-56">
         <img
           src="@/assets/covid-19-project/BWH1.png"
           alt="wireframe 1"
           class="w-full"
         />
       </div>
-      <div class="w-24">
+      <div class="w-24 sm:w-48 md:w-56">
         <img
           src="@/assets/covid-19-project/BWH2.png"
           alt="wireframe 2"
           class="w-full"
         />
       </div>
-      <div class="w-24">
+      <div class="w-24 sm:w-48 md:w-56">
         <img
           src="@/assets/covid-19-project/BWH3.png"
           alt="wireframe 3"
@@ -29,7 +29,7 @@
         />
       </div>
     </div>
-    <section class="mb-8">
+    <section class="mb-12">
       <h2 class="text-xl">Background</h2>
       <hr />
       <p class="my-4">
@@ -42,7 +42,7 @@
         their staff.
       </p>
     </section>
-    <section class="mb-8">
+    <section class="mb-12">
       <h2 class="text-xl">Research</h2>
       <hr />
       <p class="my-4">
@@ -55,7 +55,7 @@
         COVID-19.
       </p>
     </section>
-    <section class="my-4">
+    <section class="mb-12">
       <h2 class="text-xl">Problem/Requirements</h2>
       <hr />
       <p class="my-4">
@@ -70,7 +70,7 @@
         <li>build awareness and share resources</li>
       </ul>
     </section>
-    <section class="my-4">
+    <section class="mb-12">
       <h2 class="text-xl">Journey Mapping</h2>
       <hr />
       <p class="my-4">
@@ -85,16 +85,16 @@
         />
       </div>
     </section>
-    <section class="my-4">
+    <section class="mb-12">
       <h2 class="text-xl">Wireframing</h2>
       <hr />
       <Wireframe title="Home Screen" class="mb-8">
         <ul class="list-disc ml-4">
-          <li>
+          <li class="my-2">
             Top navigation bar provides a quick snapshot of COVID-19 risk and
             Burnout score.
           </li>
-          <li>
+          <li class="my-2">
             Sections are displayed based on order of importance: Headline News,
             Burnout, COVID-19 Risk, Recent News, Helpful Resources
           </li>
@@ -165,13 +165,21 @@
         </template>
       </Wireframe>
     </section>
-    <section class="my-4">
+    <section class="">
       <h2 class="text-xl">Conclusion</h2>
       <hr />
       <p class="my-4">
-        While stakeholders at the hospital defined a user task flow, I used a
-        wireflow approach to map out each screen and functionality to cohesively
-        tie together each page of the app.
+        Final deliverables for this project included all sketches, wireframes,
+        journey diagrams, and a clickable prototype. At this point, it is
+        unclear to me whether the hospital has the resources to develop the
+        application. The project proved to be a challenging learning experience
+        for myself and the hospital team. Although it was nice to see
+        stakeholder involvement in the project, I would have liked to have
+        conducted more user research and usability testing with the early
+        wireframes rather than have the stakeholders speak on behalf of the vast
+        variety of users the app is targeting. Considering the tight timeline we
+        were given, the project was a success in providing a roadmap for their
+        COVID-19 app.
       </p>
     </section>
   </div>

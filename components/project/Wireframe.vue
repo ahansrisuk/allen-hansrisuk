@@ -1,10 +1,12 @@
 <template>
-  <div>
-    <p class="text-xl my-4 mb-2">
-      {{ title }}
-    </p>
-    <div class="mb-4">
-      <slot />
+  <div class="md:flex mt-4">
+    <div class="md:w-2/3">
+      <p class="text-xl mb-2">
+        {{ title }}
+      </p>
+      <div class="mb-4">
+        <slot />
+      </div>
     </div>
     <div>
       <slot name="image" />
