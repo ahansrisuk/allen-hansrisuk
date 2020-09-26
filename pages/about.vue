@@ -24,7 +24,7 @@
         <hr class="my-4" />
         <section class="m-auto flex justify-between mt-4">
           <div>
-            <h2 class="mb-4 text-xl">TECH</h2>
+            <h2 class="mb-4 text-xl">💻TECH</h2>
             <ul>
               <li>Vue.js</li>
               <li>Nuxt.js</li>
@@ -34,7 +34,7 @@
             </ul>
           </div>
           <div>
-            <h2 class="mb-4 text-xl">SKILLS</h2>
+            <h2 class="mb-4 text-xl">📔SKILLS</h2>
             <ul>
               <li>Front End Development</li>
               <li>UI/UX Design</li>

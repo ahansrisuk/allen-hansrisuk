@@ -1,13 +1,8 @@
 <template>
   <div>
-    <!-- <p class="mb-8">
-      For all general inquiries, proposals, questions, etc., please send me an
-      email at:
-      <a href="mailto:ahansrisuk@gmail.com">
-        <span class="underline">ahansrisuk@gmail.com</span></a
-      >
-    </p> -->
-    <p class="mb-4">
+    <p class="mb-4 text-2xl">Get in touch!📫</p>
+
+    <p class="mb-8">
       For all general inquiries, proposals, questions, etc., please use the
       contact form below and I will get in touch as soon as possible. Thank you!
     </p>

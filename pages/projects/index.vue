@@ -9,34 +9,33 @@
       provider burnout and COVID-19 symptoms amid the outbreak.
     </Project>
     <Project
-      title="Clear Cut"
-      category="Development"
-      link="/projects/covid-19-tracker"
-    >
-      Web app developed for Johns Hopkins Medicine that automates routine
-      maintenance requests in Epic EMR. Please contact me for additional
-      information regarding this project.
-    </Project>
-    <Project
-      title="HAE Meds Workflow"
-      category="UX/UI Design"
-      link="/projects/covid-19-tracker"
-    >
-      Expedite prescribing medication for hereditary angiodema patients. Please
-      contact me for additional information regarding this project.
-    </Project>
-    <Project
       title="Ready, Fresh, Go!"
       category="UX/UI Design"
-      link="/projects/covid-19-tracker"
+      link="/projects/ready-fresh-go"
     >
       Case study and value proposition for a food truck business and app
       intended to address food deserts and build community.
     </Project>
     <Project
+      title="Clear Cut"
+      category="Development"
+      link="/projects/clear-cut"
+    >
+      Web app developed for Johns Hopkins Medicine that automates routine
+      maintenance requests in Epic EMR.
+    </Project>
+    <Project
+      title="HAE Meds Workflow"
+      category="UX/UI Design"
+      link="/projects/contact"
+    >
+      Expedite prescribing medication for hereditary angiodema patients. Please
+      contact me for additional information regarding this project.
+    </Project>
+    <Project
       title="Pocket Value"
       category="Development"
-      link="/projects/covid-19-tracker"
+      link="/projects/pocket-value"
     >
       Lightweight, item value reference guide for Animal Crossing: New Horizons.
       Featured as a
