@@ -10,8 +10,8 @@
           I am a Baltimore-based front end web developer and UX/UI designer
           creating engaging, thoughtful user experiences. Committed to
           research-based design thinking to creatively explore problems and
-          potential solutions. Received a post-graduate UX Design degree from
-          the Maryland Institute College of Art. Founder of
+          potential solutions. Received a master's degree in UX Design from the
+          Maryland Institute College of Art. Founder of
           &lt;head&gt;&lt;body&gt;.
         </p>
         <p class="mt-4 text-xl">
