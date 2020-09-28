@@ -39,11 +39,7 @@
       Web app developed for Johns Hopkins Medicine that automates routine
       maintenance requests in Epic EMR.
     </Project>
-    <Project
-      title="HAE Meds Workflow"
-      category="UX/UI Design"
-      link="/projects/contact"
-    >
+    <Project title="HAE Meds Workflow" category="UX/UI Design" link="/contact">
       Expedite prescribing medication for hereditary angiodema patients. Please
       contact me for additional information regarding this project.
     </Project>
