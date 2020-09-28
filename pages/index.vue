@@ -1,10 +1,10 @@
 <template>
-  <div class="pt-48 px-20">
+  <div class="pt-48 px-12 md:px-20">
     <vue-typed-js
       :strings="['Hello.^600 I\'m Allen.']"
       @onComplete="enterContent"
     >
-      <h1 class="text-3xl">
+      <h1 class="text-2xl md:text-3xl">
         <span class="typing"></span>
       </h1>
     </vue-typed-js>
