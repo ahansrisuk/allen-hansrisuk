@@ -27,6 +27,7 @@
       title="Ready, Fresh, Go!"
       category="UX/UI Design"
       link="https://www.dropbox.com/s/rqxtmd8554fbfog/ready-fresh-go-playbook.pdf?dl=0"
+      external-link="true"
     >
       Case study and value proposition for a food truck business and app
       intended to address food deserts and build community.
@@ -35,6 +36,7 @@
       title="Clear Cut"
       category="Development"
       link="https://www.dropbox.com/s/5ba5hnyi1mv93zc/Clear%20Cut%20Maintenance%20Request%20System%20for%20Johns%20Hopkins%20Medicine.docx?dl=0"
+      external-link="true"
     >
       Web app developed for Johns Hopkins Medicine that automates routine
       maintenance requests in Epic EMR.
