@@ -9,85 +9,162 @@
     <div class="flex w-full justify-between mb-12">
       <div class="w-24 sm:w-48 md:w-56">
         <img
-          src="@/assets/covid-19-project/BWH1.png"
+          src="@/assets/ready-fresh-go/RFG1.png"
           alt="wireframe 1"
           class="w-full"
         />
       </div>
       <div class="w-24 sm:w-48 md:w-56">
         <img
-          src="@/assets/covid-19-project/BWH2.png"
+          src="@/assets/ready-fresh-go/RFG2.png"
           alt="wireframe 2"
           class="w-full"
         />
       </div>
       <div class="w-24 sm:w-48 md:w-56">
         <img
-          src="@/assets/covid-19-project/BWH3.png"
+          src="@/assets/ready-fresh-go/RFG3.png"
           alt="wireframe 3"
           class="w-full"
         />
       </div>
     </div>
     <section class="mb-12">
-      <h2 class="text-xl">Background</h2>
+      <h2 class="text-xl">Background/Problem</h2>
       <hr />
       <p class="my-4">
-        In the midst of the COVID-19 outbreak, Brigham and Women's Hospital
-        wanted to explore a solution that would help contain the spread of
-        COVID-19 and benefit the healthcare workers on the frontlines. With
-        providers working around the clock, the hospital wanted to get data
-        regarding their well-being, physically and mentally. The data would be
-        used to alleviate provider burnout and ensure the health and safety of
-        their staff.
+        Food deserts in the United States is often an overlooked issue that has
+        tremendeous effects on citizens' diets and health. In Michelle Obama’s
+        speech in 2010 as part of her Let's Move! campaign, she covered issues
+        including child health and nutrition. She also addressed "23.5 million
+        Americans who live in areas without supermarkets or other places where
+        they can access fresh, nutritious foods". As a result, Americans who
+        live in these areas are more susceptible to diet related illnesses and
+        poor habits relating to nutrition.
       </p>
+      <p class="my-4">
+        Our team was tasked with exploring a potential solution that could
+        address food deserts and build community. Our final deliverable to the
+        client was a complete playbook documenting our process, design
+        decisions, wireframes, and prototype.
+      </p>
+    </section>
+    <section class="mb-12">
+      <h2 class="text-xl">Project Timeline</h2>
+      <hr />
+      <p class="my-4">
+        Our project spanned six weeks and we followed the Agile Scrum method to
+        prioritize our tasks and divide the work.
+      </p>
+      <div class="flex justify-center">
+        <img
+          src="@/assets/ready-fresh-go/project-plan.png"
+          alt="project plan"
+        />
+      </div>
     </section>
     <section class="mb-12">
       <h2 class="text-xl">Research</h2>
       <hr />
       <p class="my-4">
-        Much of the research was conducted before my involvement through
-        surveys. At the time, they found that many staff members had an
-        overwhelming feeling of "burnout" as many were working beyond their
-        scheduled hours to meet hospital needs. They found that many were not
-        taking their scheduled breaks and following hospital testing protocol.
-        In addition, many were unaware of hospital's educational resources on
-        COVID-19.
+        We started researching this issue through peer reviewed journal articles
+        to better understand what criteria makes an area a food desert as well
+        as what known problems do people in these areas already encounter.
+        Although the main demographic we were targeting were users who live in
+        food deserts, we wanted to open up our research to all users in order to
+        understand their grocery shopping and eating habits. This was done via
+        online survey and eight survey responders were contacted for a follow up
+        interview.
       </p>
-    </section>
-    <section class="mb-12">
-      <h2 class="text-xl">Problem/Requirements</h2>
-      <hr />
       <p class="my-4">
-        With the research completed stakeholders and I were able to prioritize a
-        list of core functions for our solution. The app would have to:
+        Key Takeaways
       </p>
       <ul class="list-disc ml-4">
-        <li>be a mobile app</li>
-        <li>track provider burnout</li>
-        <li>report COVID-19 symptoms</li>
-        <li>notify staff of hospital protocol</li>
-        <li>build awareness and share resources</li>
+        <li>
+          Most participants expressed pain points with grocery shopping and
+          food-ordering or takeout methods.
+        </li>
+        <li>
+          Some participants resort to online ordering for grocery shopping when
+          they couldn’t find what they’re looking for and that 5 out of 8
+          participants use food-delivery apps to get their food (takeout).
+        </li>
+        <li>
+          Most participants prefer to go to the closest grocery store
+          (additional or secondary reasons: quality and cultural preference).
+          For those who own a car, they’re willing to drive further to go to
+          another store.
+        </li>
+        <li>
+          Most participants are health conscious, meaning they aware of what
+          they eat and try to eat healthier options. Some participants also
+          follow dietary plans (low-carb, vegetarian).
+        </li>
       </ul>
     </section>
     <section class="mb-12">
-      <h2 class="text-xl">Journey Mapping</h2>
+      <h2 class="text-xl">Persona and Journey Map</h2>
       <hr />
       <p class="my-4">
-        While stakeholders at the hospital defined a user task flow, I used a
-        wireflow approach to map out each screen and functionality to cohesively
-        tie together each page of the app.
+        Jack Karter was one of the personas created based on our research data
+        to illustrate a potential user and their journey through buying food.
       </p>
+      <div class="mb-4">
+        <img
+          src="@/assets/ready-fresh-go/persona.png"
+          alt="task flow diagram"
+        />
+      </div>
       <div>
         <img
-          src="@/assets/covid-19-project/task-flow.png"
+          src="@/assets/ready-fresh-go/journey-map.png"
           alt="task flow diagram"
         />
       </div>
     </section>
     <section class="mb-12">
+      <h2 class="text-xl">Solution/Task Flow</h2>
+      <hr />
+      <div class="my-4">
+        <img
+          src="@/assets/ready-fresh-go/wireflow.png"
+          alt="task flow diagram"
+        />
+      </div>
+      <p class="my-4">
+        Our solution, Ready, Fresh, Go! is a two-pronged approach. To build
+        community and help address the food desert issue, the solution makes use
+        of a traveling farmer’s market, similar to a traditional food truck,
+        that travels from neighborhood to neighborhood on a recurring schedule.
+        Each neighborhood has its associated time and place where the market
+        will be. Good sold will come from local sources furthe strengthening
+        community ties. The second part of our solution lies in the accompanying
+        mobile app. From the app, users can set their default pickup location,
+        order their groceries, see what the market has in store, and pay. The
+        task flow (pictured above) outlined the features and the users’
+        processes for our app. Later, we designed the wireframes, which later on
+        informed our prototype.
+      </p>
+      <div class="my-4">
+        <img
+          src="@/assets/ready-fresh-go/annotated-wireframe.png"
+          alt="task flow diagram"
+        />
+      </div>
+      <p class="my-4">
+        Pictured above is an early sketch representing the Browse Items screen.
+      </p>
+    </section>
+    <section class="mb-12">
       <h2 class="text-xl">Wireframing</h2>
       <hr />
+      <p class="my-4">
+        Our project spanned six weeks and we followed the Agile Scrum method to
+        prioritize our tasks and divide the work.
+      </p>
+      <div class="flex justify-center">
+        <img src="@/assets/ready-fresh-go/wireframes1.png" alt="wireframes" />
+      </div>
       <Wireframe title="Home Screen" class="mb-8">
         <ul class="list-disc ml-4">
           <li class="my-2">
