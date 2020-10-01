@@ -159,84 +159,58 @@
       <h2 class="text-xl">Wireframing</h2>
       <hr />
       <p class="my-4">
-        Our project spanned six weeks and we followed the Agile Scrum method to
-        prioritize our tasks and divide the work.
+        These screens give an overview of a user's journey. From left to right:
+        browsing, view cart, checkout, confirming pickup location.
       </p>
       <div class="flex justify-center">
         <img src="@/assets/ready-fresh-go/wireframes1.png" alt="wireframes" />
       </div>
-      <Wireframe title="Home Screen" class="mb-8">
+      <Wireframe title="Item Information" class="mb-8">
         <ul class="list-disc ml-4">
           <li class="my-2">
-            Top navigation bar provides a quick snapshot of COVID-19 risk and
-            Burnout score.
+            Item is clearly pictured with nutritional information to inform
+            users of the product's nutritional value.
           </li>
           <li class="my-2">
-            Sections are displayed based on order of importance: Headline News,
-            Burnout, COVID-19 Risk, Recent News, Helpful Resources
+            The location where the product was source is also listed encouraging
+            users to support local farms and food sources.
+          </li>
+          <li class="my-2">
+            For users that do not normally prepare their own foods, suggestions
+            on how to prepare the product are listed.
+          </li>
+          <li class="my-2">
+            Robust navigation to other areas of the app and clear Add to Cart
+            buttons are present on this screen.
           </li>
         </ul>
         <template v-slot:image>
           <img
-            src="@/assets/covid-19-project/home.png"
+            src="@/assets/ready-fresh-go/item-info.png"
             alt="home screen wireframe"
           />
         </template>
       </Wireframe>
-      <Wireframe title="Burnout Screen" class="mb-8">
+      <Wireframe title="Pickup Locations" class="mb-8">
         <ul class="list-disc ml-4">
           <li>
-            Provides the mechanism where users can report their sense of
-            wellbeing over time.
+            Each day, the market will be stationed at various neighborhoods. The
+            user can choose a pickup location that is most convenient for them.
           </li>
           <li>
-            Completion rings were used as many users stated that they were
-            familiar with the design through Apple Health and Wellness apps.
+            A scannable map offers the user a complete view of the available
+            pickup locations and times.
           </li>
           <li>
-            Burnout score is to be derived from an equation to be determined.
-            The score was deemed required as a means to quantify users feelings.
+            This screen can be accessed after the checkout process or at the
+            beginning of the process in order to set a default pickup location.
+            After an order is completed, the user will always be presented with
+            this screen to confirm their location.
           </li>
         </ul>
         <template v-slot:image>
           <img
-            src="@/assets/covid-19-project/burnout-score.png"
-            alt="home screen wireframe"
-          />
-        </template>
-      </Wireframe>
-      <Wireframe title="COVID-19 Screen" class="mb-8">
-        <ul class="list-disc ml-4">
-          <li>
-            COVID-19 symptoms are reported here. The ring will change color to
-            provide a visual cue at different levels of risk.
-          </li>
-          <li>
-            Likelihood to contract COVID-19 is determined by the user's reported
-            symptoms.
-          </li>
-        </ul>
-        <template v-slot:image>
-          <img
-            src="@/assets/covid-19-project/covid-19-score.png"
-            alt="home screen wireframe"
-          />
-        </template>
-      </Wireframe>
-      <Wireframe title="Notification Screen" class="mb-8">
-        <ul class="list-disc ml-4">
-          <li>
-            This is a sample notification screen to remind the user to report in
-            and get their temperature checked per hospital protocol.
-          </li>
-          <li>
-            Similar notification screens were created to remind the user to
-            report their COVID-19 symptoms and notify them of recent news.
-          </li>
-        </ul>
-        <template v-slot:image>
-          <img
-            src="@/assets/covid-19-project/notification-temp.png"
+            src="@/assets/ready-fresh-go/pickup-locations.png"
             alt="home screen wireframe"
           />
         </template>
@@ -246,17 +220,18 @@
       <h2 class="text-xl">Conclusion</h2>
       <hr />
       <p class="my-4">
-        Final deliverables for this project included all sketches, wireframes,
-        journey diagrams, and a clickable prototype. At this point, it is
-        unclear to me whether the hospital has the resources to develop the
-        application. The project proved to be a challenging learning experience
-        for myself and the hospital team. Although it was nice to see
-        stakeholder involvement in the project, I would have liked to have
-        conducted more user research and usability testing with the early
-        wireframes rather than have the stakeholders speak on behalf of the vast
-        variety of users the app is targeting. Considering the tight timeline we
-        were given, the project was a success in providing a roadmap for their
-        COVID-19 app.
+        This multidisciplined project was tied together social issues, creating
+        a business model, and wireframing an app through a typical UX Design
+        workflow. I enjoyed working with my teammates to deconstruct the problem
+        at hand and provide a potential solution for our client. The extensive
+        research we did painted a clear picture of our target user and made it
+        easy for us to design with empathy in mind. Personally, I would love to
+        see this service implemented in my neighborhood in the future.
+        <a
+          href="https://www.dropbox.com/s/rqxtmd8554fbfog/ready-fresh-go-playbook.pdf?dl=0"
+          class="underline"
+          >Link to Complete Playbook</a
+        >
       </p>
     </section>
   </div>
