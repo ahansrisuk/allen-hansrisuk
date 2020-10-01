@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span>UX/UI Design</span>
+    <span>Product Design</span>
     <h1 class="text-3xl mb-4">Pocket Value</h1>
     <p class="mb-4">
       Lightweight, item value reference guide for Animal Crossing: New Horizons

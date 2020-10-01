@@ -10,7 +10,7 @@
     </vue-typed-js>
     <ul v-show="showContent" class="mt-6 mb-12 text-lg">
       <li>- Front End Developer</li>
-      <li>- UX/UI Designer</li>
+      <li>- Product Designer</li>
     </ul>
     <div class="transform duration-500 hover:scale-105 origin-left">
       <nuxt-link v-show="showContent" to="/about"

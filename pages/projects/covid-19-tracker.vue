@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span>UX/UI Design</span>
+    <span>Product Design</span>
     <h1 class="text-3xl mb-4">COVID-19 Tracker</h1>
     <p class="mb-4">
       Mobile app to be implemented at Brigham and Women's Hospital to track

@@ -2,7 +2,7 @@
   <div>
     <Project
       title="COVID-19 Tracker"
-      category="UX/UI Design"
+      category="Product Design"
       link="/projects/covid-19-tracker"
     >
       Mobile app to be implemented at Brigham and Women's Hospital to track
@@ -25,7 +25,7 @@
     </Project>
     <Project
       title="Ready, Fresh, Go!"
-      category="UX/UI Design"
+      category="Product Design"
       link="/projects/ready-fresh-go"
     >
       Case study and value proposition for a food truck business model and app
@@ -40,7 +40,11 @@
       Web app developed for Johns Hopkins Medicine that automates routine
       maintenance requests in Epic EMR.
     </Project>
-    <Project title="HAE Meds Workflow" category="UX/UI Design" link="/contact">
+    <Project
+      title="HAE Meds Workflow"
+      category="Product Design"
+      link="/contact"
+    >
       Expedite prescribing medication for hereditary angiodema patients. Please
       contact me for additional information regarding this project.
     </Project>

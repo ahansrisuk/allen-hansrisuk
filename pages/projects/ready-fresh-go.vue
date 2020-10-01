@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span>UX/UI Design</span>
+    <span>Product Design</span>
     <h1 class="text-3xl mb-4">Ready, Fresh, Go!</h1>
     <p class="mb-4">
       Case study and value proposition for a food truck business model and app

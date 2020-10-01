@@ -7,12 +7,11 @@
       <div class="sm:w-2/3">
         <p class="mb-4 text-2xl">Hello!</p>
         <p>
-          I am a Baltimore-based front end web developer and UX/UI designer
+          I am a Baltimore-based Front End Web Developer and UX Designer
           creating engaging, thoughtful user experiences. Committed to
           research-based design thinking to creatively explore problems and
           potential solutions. Received a master's degree in UX Design from the
-          Maryland Institute College of Art. Founder of
-          &lt;head&gt;&lt;body&gt;.
+          Maryland Institute College of Art.
         </p>
         <p class="mt-4 text-xl">
           Currently
