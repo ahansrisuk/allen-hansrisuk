@@ -1,10 +1,10 @@
 <template>
   <div>
     <span>UX/UI Design</span>
-    <h1 class="text-3xl mb-4">COVID-19 Tracker</h1>
+    <h1 class="text-3xl mb-4">Ready, Fresh, Go!</h1>
     <p class="mb-4">
-      Mobile app to be implemented at Brigham and Women's Hospital to track
-      provider burnout and COVID-19 symptoms amid the outbreak.
+      Case study and value proposition for a food truck business model and app
+      intended to address food deserts and build community.
     </p>
     <div class="flex w-full justify-between mb-12">
       <div class="w-24 sm:w-48 md:w-56">

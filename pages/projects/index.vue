@@ -26,10 +26,9 @@
     <Project
       title="Ready, Fresh, Go!"
       category="UX/UI Design"
-      link="https://www.dropbox.com/s/rqxtmd8554fbfog/ready-fresh-go-playbook.pdf?dl=0"
-      external-link="true"
+      link="/projects/ready-fresh-go"
     >
-      Case study and value proposition for a food truck business and app
+      Case study and value proposition for a food truck business model and app
       intended to address food deserts and build community.
     </Project>
     <Project
