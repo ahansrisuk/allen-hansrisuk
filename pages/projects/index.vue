@@ -35,7 +35,7 @@
       title="Clear Cut"
       category="Development"
       link="https://www.dropbox.com/s/5ba5hnyi1mv93zc/Clear%20Cut%20Maintenance%20Request%20System%20for%20Johns%20Hopkins%20Medicine.docx?dl=0"
-      external-link="true"
+      :external-link="true"
     >
       Web app developed for Johns Hopkins Medicine that automates routine
       maintenance requests in Epic EMR.
