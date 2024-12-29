@@ -1,0 +1,30 @@
+html {
+ font-family: "Times New Roman", serif
+}
+
+body {
+    margin: auto;
+    max-width: 500px;
+    padding-top: 120px;
+}
+
+.main-container {
+    border-radius: 8px;
+    border: 2px solid gray;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 1em;
+}

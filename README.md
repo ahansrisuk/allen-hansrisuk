@@ -2,4 +2,4 @@
 
 ## Front End Developer // UX Designer
 
-Portfolio site created with [Nuxt.js](https://nuxtjs.org).
+Source code for my personal website created with [11ty](https://www.11ty.dev/)
