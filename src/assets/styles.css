@@ -1,30 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 html {
- font-family: "Times New Roman", serif
+  font-family: 'JetBrains Mono', serif;
 }
 
 body {
-    margin: auto;
-    max-width: 500px;
-    padding-top: 120px;
-}
-
-.main-container {
-    border-radius: 8px;
-    border: 2px solid gray;
+  margin: auto;
+  max-width: 540px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  line-height: 1.2;
 }
 
 h1 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-top: 8px;
-    margin-bottom: 8px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 h2 {
-    font-size: 24px;
-    font-weight: 900;
+  font-size: 18px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 800;
 }
 
 p {
-    font-size: 1em;
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+}
+
+.post-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.post-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.post-date {
+  font-size: 14px;
+}
+
+blockquote {
+  padding: 4px;
+  padding-left: 36px;
+  font-weight: 200;
+  border-left: 4px solid gray;
+}
+
+li {
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
